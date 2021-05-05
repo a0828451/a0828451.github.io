@@ -7,3 +7,5 @@
 3.參考 https://iconmonstr.com/github-1-svg/ 及https://www.w3schools.com/howto/howto_css_social_media_buttons.asp 找到社群網站LOGO的屬性資料 (包含形狀的座標與曲線來製作圖片)和Path(一串英文與數字組成的資料，其中英文是指令然後數字是座標。英文定義怎麼畫的、數字定義畫在哪裡)。重新理解之後將這些方式應用在社群網站的連結上。
 
 4.選擇模板顏色，進入css檔案中找出顏色，用ctrl+shift+h的方式選取基礎顏色進行替換。
+
+https://a0828451.github.io/a0828451.github.io-master/HW01/index.html
