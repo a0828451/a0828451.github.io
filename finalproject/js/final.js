@@ -180,7 +180,7 @@ function CheckBoard(a) {
 function Time() {
     time = +$('#clock').text()
     if (time <= 0) {
-        alert("時間到!!炸彈爆炸了!!!")
+        alert("時間到⏰炸彈爆炸💥")
         clock.innerHTML = "X"
         all = $(".map>button")
         ShowAll(all)
