@@ -1,7 +1,7 @@
 ### 網站連結
 https://a0828451.github.io/finalproject/index.html (建議遊玩大小縮放至50%)
 ### 介紹連結
-
+https://drive.google.com/file/d/1n9T7PqpL-rtpeaS5kKPxf1OWBTDMAYII/view?usp=sharing
 ### 踩地雷遊戲網頁版
 ### 簡介
 在這次的期末專題中，我使用javascript及jquery及anime等功能製作了一個踩地雷的遊戲，
