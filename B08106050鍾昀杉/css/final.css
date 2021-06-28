@@ -1,0 +1,119 @@
+body {
+    background-color: #e7e7e7;
+    background-image: url(../img/minesweeper.png);
+    background-size: 12.9%;
+}
+
+#index {
+    margin: 0;
+    width: 100vw;
+    background-color: #abd2f899;
+    height: 300px;
+}
+
+
+#title {
+    width: 100vw;
+    line-height: 300px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+
+
+
+.empty_div {
+    text-align: center;
+    vertical-align: middle;
+    padding: 18px;
+}
+
+.mode {
+    display: inline-block;
+    height: 25vw;
+    width: 25vw;
+    margin: 1vw;
+    margin-top: 0;
+    margin-left: 3.5vw;
+    border-radius: 20px;
+}
+
+#rule {
+    width: 200px;
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    font-size: 60px;
+    border: 3px rgb(0, 0, 0) solid;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#tool {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightblue;
+}
+
+.mapcontainer {
+    background-color: lightgray;
+}
+
+.map {
+    width: 110px;
+
+    display: grid;
+    grid-template-columns: repeat(var(--colNum), auto);
+}
+
+#select {
+    width: 100vw;
+    align-content: center;
+}
+
+input {
+    width: 80px;
+}
+
+.boom {
+    background-color: lightcoral;
+}
+
+.number {
+    background-color: white;
+    color: blue;
+}
+
+.empty {
+    background-color: rgb(10, 10, 10);
+}
+
+:root {
+    width: 80%;
+    margin: 10px;
+    --rowNum: 3;
+    --colNum: 3;
+}
+
+.navbar-expand-lg {
+    width: 100vw;
+}
+
+.sc {
+    width: 100vw;
+}
+
+.aa {
+    text-align: center;
+    background-color: #abd2f899;
+}
+.title {
+    grid-column: 1/span 3;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(38, 33, 119)
+}
+.word {
+    display: inline-block;
+    font-weight: bold;
+}

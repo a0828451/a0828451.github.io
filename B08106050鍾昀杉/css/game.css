@@ -1,0 +1,120 @@
+body {
+    background-color: #e7e7e7;
+}
+
+#retry {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+
+.mode {
+    display: inline-block;
+    height: 6vw;
+    width: 19vw;
+    border: 1px rgb(222, 225, 226) solid;
+    text-align: center;
+    line-height: 3vw;
+    font-size: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+}
+
+.map>button {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.map>button:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.25), inset -5px -5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.map>button:active {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.6), inset -5px -5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.empty_div {
+    text-align: center;
+    vertical-align: middle;
+    padding: 18px;
+}
+
+.mode {
+    display: inline-block;
+    height: 25vw;
+    width: 25vw;
+    margin: 1vw;
+    border-radius: 20px;
+}
+
+
+#tool {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightblue;
+}
+
+.mapcontainer {
+    background-color: lightgray;
+}
+
+.map {
+    width: 110px;
+
+    display: grid;
+    grid-template-columns: repeat(var(--colNum), auto);
+}
+
+#select {
+    width: 100vw;
+    align-content: center;
+}
+
+input {
+    width: 80px;
+}
+
+.boom {
+    background-color: lightcoral;
+}
+
+.number {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+
+.empty {
+    background-color: white;
+}
+
+:root {
+    width: 80%;
+    margin: 10px;
+    --rowNum: 3;
+    --colNum: 3;
+}
+
+.navbar-expand-lg {
+    width: 100vw;
+}
+
+.sc {
+    width: 100vw;
+}
+
+.aa {
+    text-align: center;
+}
